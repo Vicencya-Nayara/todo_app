@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 List<String> mockTasks = [
-  "Estudar para a prova",
   "Fazer a feira",
+  "Estudar para a prova",
 ];
 
 enum MenuOptions { clearAll, about }

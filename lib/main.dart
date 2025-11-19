@@ -178,7 +178,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
-                  color: Colors.deepPurple,
+                  color: Colors.black, // Alterado para preto
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -208,7 +208,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
               ElevatedButton(
                 onPressed: _addTask,
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.deepPurple.shade300, 
+                  backgroundColor: const Color(0xFFF7F7FF), // Alterado para cor da caixa que contém tudo
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -219,7 +219,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
                   'Adicionar Tarefa',
                   style: TextStyle(
                     fontSize: 16,
-                    color: Colors.white,
+                    color: Color(0xFF9575CD), // Alterado para texto lilás
                   ),
                 ),
               ),
